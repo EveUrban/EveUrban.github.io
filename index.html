@@ -2,8 +2,11 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-  <head>
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Eve Urban - Psychomotricité sur Charente Maritime et Acquitaine: Bordeaux, Mirambeau, Jonzac, Montendre, Royan, Saintes, ...</title>
@@ -26,12 +29,12 @@
   //////////////////////////////////////////////////////
    -->
 
-    <!-- Facebook and Twitter integration -->
-  <meta property="og:title" content="Eve Urban Psychomotricienne"/>
-  <meta property="og:image" content=""/>
-  <meta property="og:url" content="https://eveurban.fr/"/>
-  <meta property="og:site_name" content=""/>
-  <meta property="og:description" content="Eve Urban vous recoit dans son cabinet de psychomotricite à la maison de sante de Mirambeau et se deplace chez vous pour des bilans et des suivis en psychomotricite. Enfants, Adolescents, Adutles."/>
+  <!-- Facebook and Twitter integration -->
+  <meta property="og:title" content="Eve Urban Psychomotricienne" />
+  <meta property="og:image" content="" />
+  <meta property="og:url" content="https://eveurban.fr/" />
+  <meta property="og:site_name" content="" />
+  <meta property="og:description" content="Eve Urban vous recoit dans son cabinet de psychomotricite à la maison de sante de Mirambeau et se deplace chez vous pour des bilans et des suivis en psychomotricite. Enfants, Adolescents, Adutles." />
   <meta name="twitter:title" content="Eve Urban Psychomotricienne" />
   <meta name="twitter:image" content="" />
   <meta name="twitter:url" content="https://eveurban.fr/" />
@@ -89,7 +92,10 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106627715-2"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments)};
+
+    function gtag() {
+      dataLayer.push(arguments)
+    };
     gtag('js', new Date());
 
     gtag('config', 'UA-106627715-2');
@@ -97,30 +103,56 @@
   <meta name="google-site-verification" content="jRN5AqDUIv_Akyu4DcFT8he-6z2Xy_vXBm2BB2ln_14" />
 
 
-  </head>
-  <body>
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+  <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+  <script>
+    window.addEventListener("load", function() {
+      window.cookieconsent.initialise({
+        "palette": {
+          "popup": {
+            "background": "#eaf7f7",
+            "text": "#5c7291"
+          },
+          "button": {
+            "background": "#56cbdb",
+            "text": "#ffffff"
+          }
+        },
+        "content": {
+          "message": "En continuant à utiliser notre site nous considérerons que vous acceptez l'utilisation des cookies.",
+          "dismiss": "J'ai compris",
+          "link": "En savoir plus"
+        }
+      })
+    });
+  </script>
+
+
+</head>
+
+<body>
   <header role="banner" id="fh5co-header">
-      <div class="container">
-        <!-- <div class="row"> -->
-          <nav class="navbar navbar-default">
-            <div class="navbar-header">
-              <!-- Mobile Toggle Menu Button -->
+    <div class="container">
+      <!-- <div class="row"> -->
+      <nav class="navbar navbar-default">
+        <div class="navbar-header">
+          <!-- Mobile Toggle Menu Button -->
           <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
-             <a class="navbar-brand" href="index.html">Eve Urban</a>
-            </div>
-            <div id="navbar" class="navbar-collapse collapse">
-              <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a href="#" data-nav-section="home"><span>Acceuil</span></a></li>
-                <li><a href="#" data-nav-section="work"><span>La Psychomotricit&eacute;</span></a></li>
-                <li><a href="#" data-nav-section="testimonials"><span>T&eacute;moignages</span></a></li>
-                <li><a href="#" data-nav-section="services"><span>Services</span></a></li>
-                <li><a href="#" data-nav-section="about"><span>A Propos</span></a></li>
-                <li><a href="#" data-nav-section="contact"><span>Contact</span></a></li>
-              </ul>
-            </div>
-          </nav>
-        <!-- </div> -->
-      </div>
+          <a class="navbar-brand" href="index.html">Eve Urban</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#" data-nav-section="home"><span>Acceuil</span></a></li>
+            <li><a href="#" data-nav-section="work"><span>La Psychomotricit&eacute;</span></a></li>
+            <li><a href="#" data-nav-section="testimonials"><span>T&eacute;moignages</span></a></li>
+            <li><a href="#" data-nav-section="services"><span>Services</span></a></li>
+            <li><a href="#" data-nav-section="about"><span>A Propos</span></a></li>
+            <li><a href="#" data-nav-section="contact"><span>Contact</span></a></li>
+          </ul>
+        </div>
+      </nav>
+      <!-- </div> -->
+    </div>
   </header>
 
   <section id="fh5co-home" data-section="home" style="background-image: url(images/full_image_2.jpg);" data-stellar-background-ratio="0.5">
@@ -150,9 +182,7 @@
             <i class="fh5co-intro-icon glyphicon glyphicon-comment"></i>
             <h2>Prendre rendez-vous</h2>
             <p>
-              Besoin de r&eacute;aliser un bilan<br>
-              ou tout simplement vous renseigner ?<br>
-              Vous pouvez me contacter ci-dessous.
+              Besoin de r&eacute;aliser un bilan<br> ou tout simplement vous renseigner ?<br> Vous pouvez me contacter ci-dessous.
             </p>
             <p><a href="#" data-nav-section="contact" class="nav-section btn btn-primary">Entrer en contact</a></p>
           </div>
@@ -164,8 +194,7 @@
             <i class="fh5co-intro-icon glyphicon glyphicon-user"></i>
             <h2>Consulter les services</h2>
             <p>
-              Enfants, adolescents, ou adultes,<br>
-              la psycomotricit&eacute; peut vous &ecirc;tre utile de multiples fa&ccedil;ons.
+              Enfants, adolescents, ou adultes,<br> la psycomotricit&eacute; peut vous &ecirc;tre utile de multiples fa&ccedil;ons.
             </p>
             <p><a href="#" data-nav-section="services" class="nav-section btn btn-primary">Les services</a></p>
           </div>
@@ -177,8 +206,7 @@
             <i class="fh5co-intro-icon glyphicon glyphicon-leaf"></i>
             <h2>D&eacute;couvrir la psycomotricit&eacute;</h2>
             <p>
-              La psychomotricité fait partie des disciplines paramédicales,
-              réglementées par un décret d’application.
+              La psychomotricité fait partie des disciplines paramédicales, réglementées par un décret d’application.
             </p>
             <p><a href="#" data-nav-section="work" class="nav-section btn btn-primary">En savoir plus</a></p>
           </div>
@@ -200,17 +228,19 @@
             <div class="col-md-8 col-md-offset-2 subtext to-animate">
               <h3>La psychomotricité fait partie des <strong>disciplines paramédicales</strong>, certifiées par un diplôme d’état et réglementées par un décret d’application</h3>
               <p>
-La psychomotricité est une thérapie qui passe par le corps. Elle s'adresse aux enfants, adolescents ou adultes et permet de se sentir mieux dans son corps et dans sa tête. <br><br>
-Tout au long de notre vie nous pouvons tous être amenés à traverser des périodes difficiles pour toutes sortes de raisons : maladie, angoisse, ou même tout simplement grandir ou vieillir… Lorsque notre rapport au corps est perturbé la psychomotricité peut permettre de passer certains caps. <br><br>
-Si vous rencontrez des difficultés avec votre enfant (propreté, relations, comportement, sommeil, motricité...) ou si vous-même traversez une période difficile n'hésitez pas à me contacter pour en parler!<br><br>
-<strong>Les psychomotriciens ne sont pas des psychologues</strong>, ils vont se centrer sur le rapport au corps et non pas sur la vie psychique. Les psychomotriciens proposent toujours un temps de travail corporel dans leurs séances, contrairement aux psychologues qui travaillent avec la parole.<br><br>
-<strong>Les psychomotriciens ne sont pas non plus des kinésithérapeutes</strong> car ils ne travaillent pas sur l’aspect fonctionnel du corps mais plutôt sur le lien entre le corps et le psychisme. Les psychomotriciens travaillent sur la sensorialité, les représentations corporelles, la place que tient le corps dans la tête et vis versa.<br><br>
-Pour faire leur travail les psychomotriciens utilisent ce qu’on appelle des <strong>médiations corporelles</strong>. Les médiations corporelles sont les outils des psychomotriciens. Il existe de nombreuses médiations corporelles utilisées en psychomotricité. Le choix du type de médiation utilisée en séance dépend de la problématique de la personne, de ses affinités et du professionnel.<br>
-Chaque professionnel se spécialise au cours de son cursus dans telle ou telle médiation mais pendant leur formation les psychomotriciens sont amenés à vivre une grande partie des médiations potentiellement proposées.<br><br>
-Voici quelques exemples de médiations corporelles utilisées en psychomotricité : Relaxation, toucher thérapeutique, parcours psychomoteur, activités de motricité fine, expression corporelle... jeux de rôles, régulation tonique...<br><br>
-<strong>A propos de la formation</strong><br><br>
-Après un concours national, différentes écoles dispensent un enseignement théorique concernant les bases en physiologie, anatomie, psychologie, psychiatrie, psychomotricité, passation et cotation des tests constituant les bilans psychomoteurs et beaucoup d’enseignements de la pratique en petit groupes. Les enseignements de la pratique visent à expérimenter toutes les médiations corporelles que nous pouvons proposer aux personnes pendant nos séances : relaxation, expression corporelle, anatomie fonctionnelle… Les psychomotriciens sont donc amenés à traverser, éprouver et expérimenter eux-mêmes tous les soins qu’ils seront susceptibles de délivrer.<br><br>
-Le cursus est aussi jalonné de nombreuses heures de stages sur le terrain auprès des patients. Les stages garantissent l’expérience minimum requise pour pouvoir travailler auprès de publics très variés. La troisième année débouche sur la rédaction d’un mémoire et sur des examens afin d’obtenir le diplôme d’état délivré par le ministère de la santé.
+                La psychomotricité est une thérapie qui passe par le corps. Elle s'adresse aux enfants, adolescents ou adultes et permet de se sentir mieux dans son corps et dans sa tête. <br><br> Tout au long de notre vie nous pouvons tous être amenés
+                à traverser des périodes difficiles pour toutes sortes de raisons : maladie, angoisse, ou même tout simplement grandir ou vieillir… Lorsque notre rapport au corps est perturbé la psychomotricité peut permettre de passer certains caps.
+                <br><br> Si vous rencontrez des difficultés avec votre enfant (propreté, relations, comportement, sommeil, motricité...) ou si vous-même traversez une période difficile n'hésitez pas à me contacter pour en parler!<br><br>
+                <strong>Les psychomotriciens ne sont pas des psychologues</strong>, ils vont se centrer sur le rapport au corps et non pas sur la vie psychique. Les psychomotriciens proposent toujours un temps de travail corporel dans leurs séances, contrairement
+                aux psychologues qui travaillent avec la parole.<br><br>
+                <strong>Les psychomotriciens ne sont pas non plus des kinésithérapeutes</strong> car ils ne travaillent pas sur l’aspect fonctionnel du corps mais plutôt sur le lien entre le corps et le psychisme. Les psychomotriciens travaillent sur
+                la sensorialité, les représentations corporelles, la place que tient le corps dans la tête et vis versa.<br><br> Pour faire leur travail les psychomotriciens utilisent ce qu’on appelle des <strong>médiations corporelles</strong>. Les médiations
+                corporelles sont les outils des psychomotriciens. Il existe de nombreuses médiations corporelles utilisées en psychomotricité. Le choix du type de médiation utilisée en séance dépend de la problématique de la personne, de ses affinités
+                et du professionnel.<br> Chaque professionnel se spécialise au cours de son cursus dans telle ou telle médiation mais pendant leur formation les psychomotriciens sont amenés à vivre une grande partie des médiations potentiellement proposées.<br><br>                Voici quelques exemples de médiations corporelles utilisées en psychomotricité : Relaxation, toucher thérapeutique, parcours psychomoteur, activités de motricité fine, expression corporelle... jeux de rôles, régulation tonique...<br><br>
+                <strong>A propos de la formation</strong><br><br> Après un concours national, différentes écoles dispensent un enseignement théorique concernant les bases en physiologie, anatomie, psychologie, psychiatrie, psychomotricité, passation et
+                cotation des tests constituant les bilans psychomoteurs et beaucoup d’enseignements de la pratique en petit groupes. Les enseignements de la pratique visent à expérimenter toutes les médiations corporelles que nous pouvons proposer aux
+                personnes pendant nos séances : relaxation, expression corporelle, anatomie fonctionnelle… Les psychomotriciens sont donc amenés à traverser, éprouver et expérimenter eux-mêmes tous les soins qu’ils seront susceptibles de délivrer.<br><br>                Le cursus est aussi jalonné de nombreuses heures de stages sur le terrain auprès des patients. Les stages garantissent l’expérience minimum requise pour pouvoir travailler auprès de publics très variés. La troisième année débouche sur
+                la rédaction d’un mémoire et sur des examens afin d’obtenir le diplôme d’état délivré par le ministère de la santé.
               </p>
             </div>
           </div>
@@ -333,15 +363,14 @@ Le cursus est aussi jalonné de nombreuses heures de stages sur le terrain aupr�
         <div class="col-md-4 col-md-offset-4">
           <div class="box-testimony">
             <blockquote class="to-animate-2">
-              <p>&ldquo;
-Je me sens plus apaisée après les séances, je fais connaissance avec mon hémi corps droit, jusqu’alors perçu quasiment inexistant, et les tensions physiques et psychologiques s’estompent.<br><br>
-Ainsi aujourd’hui, même s’il reste des progrès à accomplir ma plus belle façon de remercier Eve, c’est de lui faire part de ce merveilleux ressenti, que de découvrir ce corps dans lequel je vis depuis 46 ans et que je ne connaissais pas !
-&rdquo;</p>
+              <p>&ldquo; Je me sens plus apaisée après les séances, je fais connaissance avec mon hémi corps droit, jusqu’alors perçu quasiment inexistant, et les tensions physiques et psychologiques s’estompent.<br><br> Ainsi aujourd’hui, même s’il reste
+                des progrès à accomplir ma plus belle façon de remercier Eve, c’est de lui faire part de ce merveilleux ressenti, que de découvrir ce corps dans lequel je vis depuis 46 ans et que je ne connaissais pas ! &rdquo;
+              </p>
             </blockquote>
             <div class="author to-animate">
               <!-- <figure><img src="images/person1.jpg" alt="Person"></figure> -->
               <p>
-              Laurence M. <span class="subtext">Patiente adulte</span>
+                Laurence M. <span class="subtext">Patiente adulte</span>
               </p>
             </div>
           </div>
@@ -397,9 +426,11 @@ Ainsi aujourd’hui, même s’il reste des progrès à accomplir ma plus belle 
           <i class="icon to-animate-2 glyphicon glyphicon-star"></i>
           <h3>Enfants et Adolescents</h3>
           <p>
-Je travaille auprès d’enfants et d’adolescents depuis plusieurs années : en pédopsychiatrie, en IME et SESSAD. La psychomotricité aide beaucoup les enfants et les adolescents à construire leur rapport au monde et à s’approprier leur corps. Les séances peuvent comporter de la relaxation, des parcours psychomoteurs, des jeux symboliques, des jeux de rôle… En fonction des besoins de la personne et de sa personnalité, le contenu du travail peut varier.<br><br>
-Si vous pensez que votre enfant peut avoir besoin de séances de psychomotricité, contactez-moi et je vous donnerai les renseignements que vous n’aurez peut-être pas sur ce site. En attendant voici une liste non exhaustive des troubles pour lesquels la psychomotricité a fait preuves. Bonne lecture !<br><br>
-troubles de la structuration spatio-temporelle, de la latéralité, de la coordination, du tonus ou de la vigilance, agitation ou retard psychomoteur, inhibition, énurésies, troubles du sommeil, de l’alimentation… troubles des apprentissages, dyspraxies… retard dans les habiletés motrices ou sociales<br><br>
+            Je travaille auprès d’enfants et d’adolescents depuis plusieurs années : en pédopsychiatrie, en IME et SESSAD. La psychomotricité aide beaucoup les enfants et les adolescents à construire leur rapport au monde et à s’approprier leur corps. Les séances
+            peuvent comporter de la relaxation, des parcours psychomoteurs, des jeux symboliques, des jeux de rôle… En fonction des besoins de la personne et de sa personnalité, le contenu du travail peut varier.<br><br> Si vous pensez que
+            votre enfant peut avoir besoin de séances de psychomotricité, contactez-moi et je vous donnerai les renseignements que vous n’aurez peut-être pas sur ce site. En attendant voici une liste non exhaustive des troubles pour lesquels la psychomotricité
+            a fait preuves. Bonne lecture !<br><br> troubles de la structuration spatio-temporelle, de la latéralité, de la coordination, du tonus ou de la vigilance, agitation ou retard psychomoteur, inhibition, énurésies, troubles du sommeil, de l’alimentation…
+            troubles des apprentissages, dyspraxies… retard dans les habiletés motrices ou sociales<br><br>
           </p>
           <ul>
             <li>Troubles sensoriels : déficience visuelle</li>
@@ -414,7 +445,9 @@ troubles de la structuration spatio-temporelle, de la latéralité, de la coordi
           <i class="icon to-animate-2 glyphicon glyphicon-tree-deciduous"></i>
           <h3>Adultes</h3>
           <p>
-            La psychomotricité auprès d’adultes et moins connue mais elle peut pourtant faire des merveilles ! Les adultes peuvent également avoir, à une période de leur vie, des troubles liés à leur corps. La psychomotricité peut aider à retrouver un rapport apaisé à son corps et à être mieux dans sa peau. Elle constitue aussi un précieux allier pour accompagner certains problèmes psychiques. Voici une liste non exhaustive des troubles qui peuvent faire l’objet chez les adultes d’un suivi en psychomotricité :<br>
+            La psychomotricité auprès d’adultes et moins connue mais elle peut pourtant faire des merveilles ! Les adultes peuvent également avoir, à une période de leur vie, des troubles liés à leur corps. La psychomotricité peut aider à retrouver un rapport apaisé
+            à son corps et à être mieux dans sa peau. Elle constitue aussi un précieux allier pour accompagner certains problèmes psychiques. Voici une liste non exhaustive des troubles qui peuvent faire l’objet chez les adultes d’un suivi en psychomotricité
+            :<br>
             <ul>
               <li>Troubles du sommeil</li>
               <li>Troubles de la sphère alimentaire</li>
@@ -433,7 +466,9 @@ troubles de la structuration spatio-temporelle, de la latéralité, de la coordi
           <i class="icon to-animate-2 glyphicon glyphicon-grain"></i>
           <h3>Personnes agées</h3>
           <p>
-            La psychomotricité auprès des personnes âgées est de mieux en mieux reconnue. Qu’il s’agisse d’améliorer le maintien à domicile d’une personne ou bien accompagner un déménagement en institution spécialisée, le suivi psychomoteur va permettre le maintien des acquisitions psycho motrices, la gestion des émotions liées au vieillissement, le soulagement non médicamenteux des douleurs chroniques, une meilleure orientation dans l’espace et le temps... La psychomotricité favorise surtout l’investissement corporel, évite l’isolement social et les symptômes anxio dépressif de la personne âgée.
+            La psychomotricité auprès des personnes âgées est de mieux en mieux reconnue. Qu’il s’agisse d’améliorer le maintien à domicile d’une personne ou bien accompagner un déménagement en institution spécialisée, le suivi psychomoteur va permettre le maintien
+            des acquisitions psycho motrices, la gestion des émotions liées au vieillissement, le soulagement non médicamenteux des douleurs chroniques, une meilleure orientation dans l’espace et le temps... La psychomotricité favorise surtout l’investissement
+            corporel, évite l’isolement social et les symptômes anxio dépressif de la personne âgée.
             <ul>
               <li>Troubles de l’orientation spatiale et temporelle</li>
               <li>troubles de l’équilibre et prévention des chutes</li>
@@ -451,51 +486,48 @@ troubles de la structuration spatio-temporelle, de la latéralité, de la coordi
           <i class="icon to-animate-2 glyphicon glyphicon-euro"></i>
           <h3>Modalités d'interventions &amp; tarifs</h3>
           <p>
-            <strong>Comment on fait ?</strong><br>
-            Tout d’abord, prenez contact avec moi par téléphone au 06 20 31 09 12 ou bien par mail eve.urban@yahoo.fr puis, si nécessaire, nous pouvons nous rencontrer pour effectuer un bilan.
+            <strong>Comment on fait ?</strong><br> Tout d’abord, prenez contact avec moi par téléphone au 06 20 31 09 12 ou bien par mail eve.urban@yahoo.fr puis, si nécessaire, nous pouvons nous rencontrer pour effectuer un bilan.
           </p>
           <p>
-            <strong>Le bilan</strong><br>
-            L’évaluation en psychomotricité permet de déterminer si oui ou non il y a besoin d’un suivi.<br><br>
-            Le bilan psychomoteur est constitué de différents volets : coordination, équilibre, structuration spatiale et temporelle, tonus, organisation praxique... Il permet de faire un point sur l’organisation psycho corporelle globale de la personne à un moment donné. Parfois le bilan psychomoteur aide au diagnostique d’un trouble spécifique, en complément d’autres observations cliniques.<br><br>
-            Le bilan oriente les axes de travail et permet de communiquer plus facilement avec les autres acteurs dans la vie de la personne.<br><br>
-            En général le bilan s’effectue sur trois rencontres consécutives.
+            <strong>Le bilan</strong><br> L’évaluation en psychomotricité permet de déterminer si oui ou non il y a besoin d’un suivi.<br><br> Le bilan psychomoteur est constitué de différents volets : coordination, équilibre, structuration spatiale et
+            temporelle, tonus, organisation praxique... Il permet de faire un point sur l’organisation psycho corporelle globale de la personne à un moment donné. Parfois le bilan psychomoteur aide au diagnostique d’un trouble spécifique, en complément
+            d’autres observations cliniques.<br><br> Le bilan oriente les axes de travail et permet de communiquer plus facilement avec les autres acteurs dans la vie de la personne.<br><br> En général le bilan s’effectue sur trois rencontres consécutives.
           </p>
 
           <p>
-            <strong>Le suivi individuel</strong><br>
-            Une fois le bilan effectué, s’il y a besoin d’un suivi en psychomotricité, les séances peuvent se mettre en place. La régularité des séances est importante pour la bonne évolution de la personne. La fréquence peut néanmoins varier en fonction des besoins et possibilités de chacun, elle peut être soit hebdomadaire soit bi mensuelle par exemple.<br><br>
-            Une fois que la personne s’engage dans un suivi psychomoteur, les effets bénéfiques peuvent se ressentir assez rapidement mais il est important de savoir que ces soins s’effectuent dans la durée pour être complets.<br><br>
-            Le bilan permet une première évaluation du nombre de séances nécessaires puis, une autre évaluation à l’issue de ces séances permet de constater les progrès effectués et de réévaluer la nécessité de poursuivre ou non les séances.<br><br>
+            <strong>Le suivi individuel</strong><br> Une fois le bilan effectué, s’il y a besoin d’un suivi en psychomotricité, les séances peuvent se mettre en place. La régularité des séances est importante pour la bonne évolution de la personne. La
+            fréquence peut néanmoins varier en fonction des besoins et possibilités de chacun, elle peut être soit hebdomadaire soit bi mensuelle par exemple.<br><br> Une fois que la personne s’engage dans un suivi psychomoteur, les effets bénéfiques
+            peuvent se ressentir assez rapidement mais il est important de savoir que ces soins s’effectuent dans la durée pour être complets.<br><br> Le bilan permet une première évaluation du nombre de séances nécessaires puis, une autre évaluation
+            à l’issue de ces séances permet de constater les progrès effectués et de réévaluer la nécessité de poursuivre ou non les séances.<br><br>
           </p>
           <p>
-            <strong>Comment ça se passe ?</strong><br>
-            Les séances en individuel se déroulent en général de la façon suivante : un premier temps d’accueil est nécessaire pour se poser avec la personne et envisager la séance. Puis, un second temps permet d’aborder le vif du sujet : le travail psychomoteur. Enfin, un dernier temps est consacré à un retour sur ce qui s’est déroulé pendant la séance. Les séances durent entre 30 minutes et 45 minutes en fonction des buts à atteindre et des possibilités de la personne.<br><br>
-            Concernant le contenu,  je m’adapte aux besoins et envies de la personne, il s’agit toujours d’un échange, d’une proposition de travail et non d’une obligation.
+            <strong>Comment ça se passe ?</strong><br> Les séances en individuel se déroulent en général de la façon suivante : un premier temps d’accueil est nécessaire pour se poser avec la personne et envisager la séance. Puis, un second temps permet
+            d’aborder le vif du sujet : le travail psychomoteur. Enfin, un dernier temps est consacré à un retour sur ce qui s’est déroulé pendant la séance. Les séances durent entre 30 minutes et 45 minutes en fonction des buts à atteindre et des possibilités
+            de la personne.<br><br> Concernant le contenu, je m’adapte aux besoins et envies de la personne, il s’agit toujours d’un échange, d’une proposition de travail et non d’une obligation.
           </p>
           <p>
-            <strong>Séances de groupes</strong><br>
-            Au cours de mon expérience professionnelle, j’ai animé beaucoup de groupes avec des adultes, des enfants et des adolescents.<br><br>
-            J’ai animé des groupes de relaxation pour des personnes douloureuses chroniques à l’hôpital, j’ai animé des groupes d’éveil sensoriel autour des sensations et des émotions avec de personnes dépendantes en unité de sevrage... et j’ai aussi animé des groupes autour de la déficience visuelle auprès d’adolescents et d’adultes sur différentes thématiques comme la canne blanche, la parentalité, l’autonomie... Avec des adolescents en pédopsychiatrie j’ai également proposé des groupes de jeux de rôles.<br><br>
-            A chaque fois, je propose une médiation corporelle qui va aider les participants du groupe à travailler ensemble. La relaxation, la sensorialité et le jeu de rôle constituent mes spécialités.<br><br>
-            Quel que soit le public accueilli dans ces groupes et quelle que soit la médiation utilisée, les modalités restent les mêmes. Je commence toujours les groupes par un temps d’accueil et de retrouvailles pendant lequel je propose des petits exercices de dynamique de groupes.<br><br>
-            Puis, on passe au cœur du groupe, un temps de travail autour de la thématique proposée. S’il s’agit de relaxation, les participants sont invités à s’installer et à suivre mes propositions de relaxation par exemple.<br><br>
-            Après ce temps de travail corporel, j’invite les participants à échanger et à élaborer autour de ce qu’ils ont pu ressentir et je livre mon point de vue en tant que professionnelle sur le sujet abordé.<br><br>
-            Enfin, le groupe se termine comme il a commencé sur les mêmes petits exercices pour se dire au revoir.<br><br>
-            Il ne s’agit donc pas de groupes de parole car je ne suis pas psychologue, mon outil de travail reste le corps et ses ressentis. Les groupes que j’anime sont donc dynamiques et non statiques même si nous nous asseyons souvent pour parler ensemble.<br><br>
-            Ma spécialisation dans la déficience visuelle et dans la question des déplacements me permet aussi d’ajuster au mieux les propositions en fonctions des besoins, des demandes et des possibilités des participants des groupes.
+            <strong>Séances de groupes</strong><br> Au cours de mon expérience professionnelle, j’ai animé beaucoup de groupes avec des adultes, des enfants et des adolescents.<br><br> J’ai animé des groupes de relaxation pour des personnes douloureuses
+            chroniques à l’hôpital, j’ai animé des groupes d’éveil sensoriel autour des sensations et des émotions avec de personnes dépendantes en unité de sevrage... et j’ai aussi animé des groupes autour de la déficience visuelle auprès d’adolescents
+            et d’adultes sur différentes thématiques comme la canne blanche, la parentalité, l’autonomie... Avec des adolescents en pédopsychiatrie j’ai également proposé des groupes de jeux de rôles.<br><br> A chaque fois, je propose une médiation corporelle
+            qui va aider les participants du groupe à travailler ensemble. La relaxation, la sensorialité et le jeu de rôle constituent mes spécialités.<br><br> Quel que soit le public accueilli dans ces groupes et quelle que soit la médiation utilisée,
+            les modalités restent les mêmes. Je commence toujours les groupes par un temps d’accueil et de retrouvailles pendant lequel je propose des petits exercices de dynamique de groupes.<br><br> Puis, on passe au cœur du groupe, un temps de travail
+            autour de la thématique proposée. S’il s’agit de relaxation, les participants sont invités à s’installer et à suivre mes propositions de relaxation par exemple.<br><br> Après ce temps de travail corporel, j’invite les participants à échanger
+            et à élaborer autour de ce qu’ils ont pu ressentir et je livre mon point de vue en tant que professionnelle sur le sujet abordé.<br><br> Enfin, le groupe se termine comme il a commencé sur les mêmes petits exercices pour se dire au revoir.<br><br>            Il ne s’agit donc pas de groupes de parole car je ne suis pas psychologue, mon outil de travail reste le corps et ses ressentis. Les groupes que j’anime sont donc dynamiques et non statiques même si nous nous asseyons souvent pour parler ensemble.<br><br>            Ma spécialisation dans la déficience visuelle et dans la question des déplacements me permet aussi d’ajuster au mieux les propositions en fonctions des besoins, des demandes et des possibilités des participants des groupes.
           </p>
           <p>
-            <strong>Qui paye ?</strong><br>
-            Les soins en psychomotricité ne sont pas remboursés par la sécurité sociale donc c’est la personne qui bénéficie des soins qui paye les séances de psychomotricité. Toutefois il existe plusieurs possibilités de remboursements partiels ou totaux de ces soins : mutuelles, commissions sociales de CE, si la personne a un statut MDPH les séances peuvent parfois être prises en charge complètement ou en partie...<br><br>
-            Auprès de l’assurance maladie : il faut effectuer une demande de prise en charge exceptionnelle. Les CPAM, par l’intermédiaire des prestations extralégales peuvent aider les familles. Un formulaire est à réclamer à votre centre de sécurité sociale. Un courrier attestant de l’impossibilité de soins ou de l’absence de places en CMP (centre médico-psychologique) peut appuyer votre demande.<br><br>
-Auprès des mutuelles : de plus en plus de mutuelle remboursent les séances de psychomotricité avec des modalités différentes (certaines remboursent 50% ou bien un nombre de séances par an…) Lorsque votre mutuelle ne rembourse pas la psychomotricité : toutes les mutuelles ont une commission de recours amiable pour les dépassements d’honoraires, pour les auxiliaires 4 de la médecine comme pour les psychomotriciens. Vous pouvez donc constituer un dossier de recours à adresser au service social ou à la commission des prestations sociales de votre mutuelle. Le dossier doit être constitué d’une lettre de demande d’aide exceptionnelle, la prescription médicale du bilan psychomoteur et/ou de séances, le compte rendu du bilan psychomoteur, les factures acquittées, le devis des séances. Si le dossier est accepté, la mutuelle peut octroyer un forfait.<br><br>
- Il est important d’en parler ensemble pour chercher des solutions adaptées à vos besoins.
+            <strong>Qui paye ?</strong><br> Les soins en psychomotricité ne sont pas remboursés par la sécurité sociale donc c’est la personne qui bénéficie des soins qui paye les séances de psychomotricité. Toutefois il existe plusieurs possibilités
+            de remboursements partiels ou totaux de ces soins : mutuelles, commissions sociales de CE, si la personne a un statut MDPH les séances peuvent parfois être prises en charge complètement ou en partie...<br><br> Auprès de l’assurance maladie
+            : il faut effectuer une demande de prise en charge exceptionnelle. Les CPAM, par l’intermédiaire des prestations extralégales peuvent aider les familles. Un formulaire est à réclamer à votre centre de sécurité sociale. Un courrier attestant
+            de l’impossibilité de soins ou de l’absence de places en CMP (centre médico-psychologique) peut appuyer votre demande.<br><br> Auprès des mutuelles : de plus en plus de mutuelle remboursent les séances de psychomotricité avec des modalités
+            différentes (certaines remboursent 50% ou bien un nombre de séances par an…) Lorsque votre mutuelle ne rembourse pas la psychomotricité : toutes les mutuelles ont une commission de recours amiable pour les dépassements d’honoraires, pour les
+            auxiliaires 4 de la médecine comme pour les psychomotriciens. Vous pouvez donc constituer un dossier de recours à adresser au service social ou à la commission des prestations sociales de votre mutuelle. Le dossier doit être constitué d’une
+            lettre de demande d’aide exceptionnelle, la prescription médicale du bilan psychomoteur et/ou de séances, le compte rendu du bilan psychomoteur, les factures acquittées, le devis des séances. Si le dossier est accepté, la mutuelle peut octroyer
+            un forfait.<br><br> Il est important d’en parler ensemble pour chercher des solutions adaptées à vos besoins.
           </p>
           <p>
             <strong>Tarifs</strong><br>
-            <u>Bilan</u> : 140 euros<br>
-            Le bilan nécessite un temps d’entretien, un temps de passation des tests psychomoteurs, un temps de cotation et de rédaction du bilan et enfin un temps de restitution des résultats du bilan ce qui justifie le prix de ces actes.<br><br>
+            <u>Bilan</u> : 140 euros<br> Le bilan nécessite un temps d’entretien, un temps de passation des tests psychomoteurs, un temps de cotation et de rédaction du bilan et enfin un temps de restitution des résultats du bilan ce qui justifie le prix
+            de ces actes.<br><br>
             <u>Séances individuelles</u> : 35 euros la séance d’une durée comprise entre 30 et 45 minutes<br><br>
             <u>Séances de groupe</u> : 80 euros la séance d’une durée d’1 heure
           </p>
@@ -525,10 +557,10 @@ Auprès des mutuelles : de plus en plus de mutuelle remboursent les séances de 
             <h3>Eve Urban</h3>
             <span class="fh5co-position">Psychomotricienne DE</span>
             <p>
-Pendant mon cursus à l’école de la Pitié-Salpêtrière, je me suis spécialisée dans la relaxation et la médiation théâtrale. J’ai effectué mon mémoire sur la douleur chronique.<br><br>
-Après avoir obtenu mon DE, j’ai travaillé auprès d’adultes en psychiatrie, puis auprès d’enfants, adolescents et adultes en addictologie (unité de sevrage complexe) et en consultation d’évaluation et de traitement de la douleur. <br><br>
-Lorsque je suis arrivée en Charente maritime, j’ai travaillé auprès d’enfants et adolescents déficients intellectuels puis j’ai effectué un complément de formation professionnelle pour devenir instructrice de locomotion et j’ai travaillé avec des enfants, adolescents et adultes déficients visuels. <br><br>
-Pendant mes séances j’utilise beaucoup la relaxation, le touché thérapeutique et les jeux de rôle. Je travaille toujours en lien avec d’autres professionnels (de la santé, enseignants, …) afin d’enrichir ma pratique.
+              Pendant mon cursus à l’école de la Pitié-Salpêtrière, je me suis spécialisée dans la relaxation et la médiation théâtrale. J’ai effectué mon mémoire sur la douleur chronique.<br><br> Après avoir obtenu mon DE, j’ai travaillé auprès d’adultes
+              en psychiatrie, puis auprès d’enfants, adolescents et adultes en addictologie (unité de sevrage complexe) et en consultation d’évaluation et de traitement de la douleur. <br><br> Lorsque je suis arrivée en Charente maritime, j’ai travaillé
+              auprès d’enfants et adolescents déficients intellectuels puis j’ai effectué un complément de formation professionnelle pour devenir instructrice de locomotion et j’ai travaillé avec des enfants, adolescents et adultes déficients visuels.
+              <br><br> Pendant mes séances j’utilise beaucoup la relaxation, le touché thérapeutique et les jeux de rôle. Je travaille toujours en lien avec d’autres professionnels (de la santé, enseignants, …) afin d’enrichir ma pratique.
 
             </p>
             <!-- <ul class="social social-circle">
@@ -604,25 +636,23 @@ Si vous souhaitez arrêter le suivi à tout moment cela est bien évidemment pos
         </div>
       </div>
       <div class="row row-bottom-padded-md">
-          <div class="col-md-6 to-animate">
-            <h3>Adresse du cabinet</h3>
-            <ul class="fh5co-contact-info">
-              <li class="fh5co-contact-address ">
-                <i class="icon-home"></i>
-                103 Avenue de la R&eacute;publique<br>
-                17150 Mirambeau
-              </li>
-            </ul>
-          </div>
+        <div class="col-md-6 to-animate">
+          <h3>Adresse du cabinet</h3>
+          <ul class="fh5co-contact-info">
+            <li class="fh5co-contact-address ">
+              <i class="icon-home"></i> 103 Avenue de la R&eacute;publique<br> 17150 Mirambeau
+            </li>
+          </ul>
+        </div>
 
-          <div class="col-md-6 to-animate">
-            <h3>Informations de contact</h3>
-            <ul class="fh5co-contact-info">
-              <li><i class="icon-phone"></i> <a href="tel:+33620310912">06.20.31.09.12</a></li>
-              <li><i class="icon-envelope"></i> <a href="mailto:eve.urban@yahoo.fr">eve.urban@yahoo.fr</a></li>
-              <li><i class="icon-globe"></i> <a href="https://eveurban.fr/" target="_blank">eveurban.fr</a></li>
-            </ul>
-            <!-- <div class="form-group ">
+        <div class="col-md-6 to-animate">
+          <h3>Informations de contact</h3>
+          <ul class="fh5co-contact-info">
+            <li><i class="icon-phone"></i> <a href="tel:+33620310912">06.20.31.09.12</a></li>
+            <li><i class="icon-envelope"></i> <a href="mailto:eve.urban@yahoo.fr">eve.urban@yahoo.fr</a></li>
+            <li><i class="icon-globe"></i> <a href="https://eveurban.fr/" target="_blank">eveurban.fr</a></li>
+          </ul>
+          <!-- <div class="form-group ">
               <label for="name" class="sr-only">Nom &amp; Pr&eacute;nom</label>
               <input id="name" class="form-control" placeholder="Nom &amp; Pr&eacute;nom" type="text">
             </div>
@@ -657,7 +687,6 @@ Si vous souhaitez arrêter le suivi à tout moment cela est bien évidemment pos
         <div class="col-md-12 text-center" style="font-size: 10px; color: #999; padding-top: 30px;">
           <p>
             &copy; Elate Free HTML5. All Rights Reserved. <br>Created by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a>. Images: <a href="http://pexels.com/" target="_blank">Pexels</a>, <a href="http://plmd.me/" target="_blank">plmd.me</a>.
-
             This work, "Eve Urban - Psychomotricite", is a derivative of "Elate Free HTML5" by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a>, used under <a href="http://creativecommons.org/licenses/by/3.0/" target="_blank">Creative Commons 3.0</a>.
           </p>
 
@@ -700,5 +729,6 @@ Si vous souhaitez arrêter le suivi à tout moment cela est bien évidemment pos
   <!-- Main JS (Do not remove) -->
   <script src="js/main.js"></script>
 
-  </body>
+</body>
+
 </html>
